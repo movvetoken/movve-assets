@@ -27,7 +27,7 @@ These assets are intended for:
 
 ## Official Website
 
-https://movvetoken.com
+https://app.movvetoken.com
 
 ## Notes
 

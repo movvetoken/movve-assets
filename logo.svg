@@ -1,45 +1,40 @@
 <svg width="512" height="512" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="movveGrad" x1="10" y1="5" x2="170" y2="175">
+    <linearGradient id="movveGrad" x1="0" y1="0" x2="180" y2="180">
       <stop offset="0%" stop-color="#8BEA4E"/>
-      <stop offset="100%" stop-color="#4A9B2F"/>
+      <stop offset="100%" stop-color="#2E8F0A"/>
     </linearGradient>
   </defs>
 
-  <!-- M shape -->
+  <!-- M shape mais fiel -->
   <path d="
-    M18 12
-    C18 9 21 6 24 6
-    H58
-    L90 46
-    L122 6
-    H156
-    C159 6 162 9 162 12
-    V168
-    C162 171 159 174 156 174
-    H122
-    V92
+    M20 10
+    H60
+    L90 55
+    L120 10
+    H160
+    V170
+    H120
+    V90
     L90 130
-    L58 92
-    V174
-    H24
-    C21 174 18 171 18 168
-    V12
+    L60 90
+    V170
+    H20
     Z"
     fill="url(#movveGrad)"/>
 
-  <!-- Chart line -->
+  <!-- Linha do gráfico -->
   <polyline 
-    points="20,125 55,75 75,95 100,65 130,95 170,25"
+    points="20,130 55,75 75,95 95,65 120,100 165,20"
     fill="none"
     stroke="white"
     stroke-width="6"
     stroke-linecap="round"
     stroke-linejoin="round"/>
 
-  <!-- Dots -->
-  <circle cx="55" cy="75" r="4.5" fill="white"/>
-  <circle cx="75" cy="95" r="4.5" fill="white"/>
-  <circle cx="100" cy="65" r="4.5" fill="white"/>
-  <circle cx="130" cy="95" r="4.5" fill="white"/>
+  <!-- Pontos -->
+  <circle cx="55" cy="75" r="5" fill="white"/>
+  <circle cx="75" cy="95" r="5" fill="white"/>
+  <circle cx="95" cy="65" r="5" fill="white"/>
+  <circle cx="120" cy="100" r="5" fill="white"/>
 </svg>
